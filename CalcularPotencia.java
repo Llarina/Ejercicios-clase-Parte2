@@ -8,8 +8,9 @@ public class CalcularPotencia {
 		double base = sc.nextDouble();
 		System.out.println("Introduce un exponente:");
 		double pot = sc.nextDouble();
-		int cont=0;
-		double num=1;
+		int cont=0; //Inicializo a 0
+		double num=1; 
+		
 		if (pot>0) {
 			do {
 				num=num*base;
